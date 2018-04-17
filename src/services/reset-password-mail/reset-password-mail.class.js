@@ -32,7 +32,7 @@ class Service {
           return this.app.service('send-mail').create({
             to: data.email, //TODO
             subject: 'Restablecer contraseña',
-            content: 'Pincha el siguiente link para resetear tu contraseña. Ojo! este link caduca.<br><br><a href="http://www.suutil.com/reset-password'
+            content: 'Pincha el siguiente link para resetear tu contraseña. Ojo! este link caduca.<br><br><a href="http://www.suutil.com/set-password'
             + url +
             '"> Restablecer contraseña </a>'
           })
